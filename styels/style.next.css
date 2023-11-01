@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+form{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding:32px 38px;
+    border-radius: 10px;
+    width: 778px;
+    background-color: aliceblue;
+}
+#ism{
+    border: none;
+    background-color: aliceblue;
+}
+label[id="ism"]{
+    padding-bottom: 16px;
+    color: #2A2941;
+    font-size: 32px;
+    font-family: Circular Std;
+    font-weight: 500;
+    line-height: 41.60px;
+    word-wrap: break-word
+}
+input[id="ism"]{
+    margin-top: 16px;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-family: Circular Std;
+    font-weight: 450;
+    line-height: 20.80px;
+    word-wrap: break-word;
+    
+}
+.region , .date {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+.country , .parts , select{
+    width: 341px;
+    border-radius: 10px;
+    color: #6E6D77;
+    font-size: 14px;
+    font-family: Circular Std;
+    font-weight: 450;
+    word-wrap: break-word
+}
+.country , .parts > label{
+    color: #2A2941;
+    font-size: 14px;
+    font-family: Circular Std;
+    font-weight: 450;
+    word-wrap: break-word
+}
+select{
+    padding: 18px;
+}
+input[id="Tug’ilgansana"], input[id="tel"]{
+    padding: 18px;
+    color: #6E6D77;
+    font-size: 14px;
+    font-family: Circular Std;
+    font-weight: 450;
+    word-wrap: break-word;
+    width: 341px;
+    border-radius: 10px;
+    border: none;
+
+}
+input[id="work"]{
+    margin: 32px 0px;
+
+}
+input[id="Tug’ilgansana"]{
+    border: 1.50px #6E6D77 solid;
+}
+.time{
+    width: 159px;
+}
+
+.region1{
+    display: flex;
+}
+.all{
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+
+}
+.button2{
+    color: white;
+    font-size: 16px;
+    font-family: Circular Std;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    padding: 18px 24px;
+    background-color: #5361E4;
+    border-radius: 16px;
+    border: none;
+    text-decoration: none;
+}
+.button1{
+    color: white;
+    font-size: 16px;
+    font-family: Circular Std;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    padding: 18px 24px;
+    background-color: #5361E4;
+    border-radius: 16px;
+    border: none;
+    text-decoration: none;
+}
